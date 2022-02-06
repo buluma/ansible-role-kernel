@@ -1,7 +1,7 @@
 ---
 galaxy_info:
-  author: Robert de Bock
-  namespace: robertdebock
+  author: Michael Buluma
+  namespace: buluma
   role_name: kernel
   description: Build and install a kernel
   license: Apache-2.0
