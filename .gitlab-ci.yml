@@ -16,8 +16,6 @@ molecule:
   retry: 1
   parallel:
     matrix:
-      - image: "enterpriselinux"
-        tag: "latest"
       - image: "opensuse"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
@@ -33,8 +31,6 @@ testing:
   retry: 1
   parallel:
     matrix:
-      - image: "enterpriselinux"
-        tag: "latest"
       - image: "opensuse"
         tag: "latest"
       - image: "docker-ubuntu-systemd"

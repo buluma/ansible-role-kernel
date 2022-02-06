@@ -35,8 +35,6 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - image: "enterpriselinux"
-            tag: "latest"
           - image: "opensuse"
             tag: "latest"
           - image: "docker-ubuntu-systemd"
