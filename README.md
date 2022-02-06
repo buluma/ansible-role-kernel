@@ -4,7 +4,7 @@ Build and install a kernel
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-kernel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-kernel/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-kernel/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-kernel)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/kernel)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/kernel)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-kernel.svg)](https://github.com/buluma/ansible-role-kernel/releases/)|
+|[![github](https://github.com/buluma/ansible-role-kernel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-kernel/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-kernel/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-kernel)|[![quality](https://img.shields.io/ansible/quality/57952)](https://galaxy.ansible.com/buluma/kernel)|[![downloads](https://img.shields.io/ansible/role/d/57952)](https://galaxy.ansible.com/buluma/kernel)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-kernel.svg)](https://github.com/buluma/ansible-role-kernel/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
