@@ -21,8 +21,6 @@ molecule:
       - image: "opensuse"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
-        tag: "latest"
-      - image: "docker-ubuntu-systemd"
         tag: "bionic"
 
 testing:
@@ -36,8 +34,6 @@ testing:
       - image: "enterpriselinux"
         tag: "latest"
       - image: "opensuse"
-        tag: "latest"
-      - image: "docker-ubuntu-systemd"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
         tag: "bionic"
@@ -55,8 +51,6 @@ role_testing:
       - image: "opensuse"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
-        tag: "latest"
-      - image: "docker-ubuntu-systemd"
         tag: "bionic"
 
 galaxy:
@@ -72,8 +66,6 @@ role_testing_live:
       - image: "enterpriselinux"
         tag: "latest"
       - image: "opensuse"
-        tag: "latest"
-      - image: "docker-ubuntu-systemd"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
         tag: "bionic"

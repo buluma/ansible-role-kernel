@@ -40,8 +40,6 @@ jobs:
           - image: "opensuse"
             tag: "latest"
           - image: "docker-ubuntu-systemd"
-            tag: "latest"
-          - image: "docker-ubuntu-systemd"
             tag: "bionic"
     steps:
       - name: checkout
