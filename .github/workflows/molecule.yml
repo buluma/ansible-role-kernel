@@ -38,10 +38,14 @@ jobs:
         config:
           - image: "enterpriselinux"
             tag: "latest"
-          - image: "opensuse"
+          - image: "docker-opensuse-systemd"
+            tag: "latest"
+          - image: "docker-ubuntu-systemd"
             tag: "latest"
           - image: "docker-ubuntu-systemd"
             tag: "bionic"
+          - image: "docker-ubuntu-systemd"
+            tag: "focal"
     steps:
       - name: checkout
         uses: actions/checkout@v3
