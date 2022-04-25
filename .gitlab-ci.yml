@@ -25,11 +25,7 @@ molecule:
       - image: "docker-opensuse-systemd"
         tag: "latest"
       - image: "docker-ubuntu-systemd"
-        tag: "latest"
-      - image: "docker-ubuntu-systemd"
         tag: "bionic"
-      - image: "docker-ubuntu-systemd"
-        tag: "focal"
 
 testing:
   stage: test
