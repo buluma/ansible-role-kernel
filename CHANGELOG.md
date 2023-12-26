@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.8](https://github.com/buluma/ansible-role-kernel/tree/1.0.8) (2023-12-24)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kernel/compare/1.0.7...1.0.8)
+
 ## [1.0.7](https://github.com/buluma/ansible-role-kernel/tree/1.0.7) (2022-05-13)
 
 [Full Changelog](https://github.com/buluma/ansible-role-kernel/compare/1.0.6...1.0.7)
