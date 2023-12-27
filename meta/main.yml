@@ -12,7 +12,7 @@ galaxy_info:
     - name: EL
       versions:
         - 8
-    - name: OpenSUSE
+    - name: opensuse
       versions:
         - all
     - name: Ubuntu
