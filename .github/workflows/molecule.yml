@@ -39,8 +39,6 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
-        with:
-          path: "${{ github.repository }}"
       - name: ansible-lint
         uses: ansible-community/ansible-lint-action@main
   test:
