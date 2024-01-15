@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-kernel/tree/HEAD)
+## [1.1.0](https://github.com/buluma/ansible-role-kernel/tree/1.1.0) (2024-01-10)
 
-[Full Changelog](https://github.com/buluma/ansible-role-kernel/compare/1.0.9...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-kernel/compare/1.0.9...1.1.0)
 
 **Merged pull requests:**
 
