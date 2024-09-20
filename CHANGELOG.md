@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-kernel/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kernel/compare/24.3.31...HEAD)
+
+**Merged pull requests:**
+
+- Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#24](https://github.com/buluma/ansible-role-kernel/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.3.31](https://github.com/buluma/ansible-role-kernel/tree/24.3.31) (2024-03-30)
 
 [Full Changelog](https://github.com/buluma/ansible-role-kernel/compare/1.2.0...24.3.31)
@@ -9,6 +17,7 @@
 - Bump dependabot/fetch-metadata from 1 to 2 [\#22](https://github.com/buluma/ansible-role-kernel/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#19](https://github.com/buluma/ansible-role-kernel/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#18](https://github.com/buluma/ansible-role-kernel/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.4 to 1.0.5 [\#3](https://github.com/buluma/ansible-role-kernel/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.2.0](https://github.com/buluma/ansible-role-kernel/tree/1.2.0) (2024-01-20)
 
@@ -42,10 +51,6 @@
 ## [1.0.6](https://github.com/buluma/ansible-role-kernel/tree/1.0.6) (2022-05-11)
 
 [Full Changelog](https://github.com/buluma/ansible-role-kernel/compare/1.0.5...1.0.6)
-
-**Merged pull requests:**
-
-- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.4 to 1.0.5 [\#3](https://github.com/buluma/ansible-role-kernel/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.5](https://github.com/buluma/ansible-role-kernel/tree/1.0.5) (2022-03-20)
 
