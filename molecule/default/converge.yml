@@ -9,4 +9,4 @@
       when: ansible_os_family == 'Debian'
 
   roles:
-    - role: ansible-role-kernel
+    - role: buluma.kernel
