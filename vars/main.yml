@@ -58,5 +58,4 @@ _kernel_installation_location:
   Debian: /boot/vmlinuz-{{ kernel_version }}*
   RedHat: &redhat_installation_location /boot/vmlinuz
   Rocky: *redhat_installation_location
-
 kernel_installation_location: "{{ _kernel_installation_location[ansible_os_family] | default(_kernel_installation_location['default']) }}"

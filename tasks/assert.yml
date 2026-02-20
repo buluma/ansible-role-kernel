@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test if kernel_version is set correctly
   ansible.builtin.assert:
     that:
