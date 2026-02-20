@@ -56,7 +56,7 @@ kernel_build_location: /tmp
 
 kernel_parameters:
   - name: CONFIG_SMP
-    value: y
+    value: true
 ```
 
 ## [Requirements](#requirements)
