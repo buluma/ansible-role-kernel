@@ -1,14 +1,12 @@
----
-- name: Converge
-  hosts: all
-  become: true
+- become: true
   gather_facts: true
+  hosts: all
+  name: Converge
   pre_tasks:
-    - name: Update apt cache.
-      ansible.builtin.apt:
-        update_cache: true
-        cache_valid_time: 600
-      when: ansible_os_family == 'Debian'
-
+  - ansible.builtin.apt:
+      cache_valid_time: 600
+      update_cache: true
+    name: Update apt cache.
+    when: ansible_os_family == 'Debian'
   roles:
-    - role: buluma.kernel
+  - role: buluma.kernel

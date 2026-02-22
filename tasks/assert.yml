@@ -1,35 +1,32 @@
 ---
 - name: assert | Test if kernel_version is set correctly
   ansible.builtin.assert:
+    quiet: true
     that:
       - kernel_version is defined
       - kernel_version is string
-    quiet: true
-
 - name: assert | Test if kernel_build_location is set correctly
   ansible.builtin.assert:
+    quiet: true
     that:
       - kernel_build_location is defined
       - kernel_build_location is string
-    quiet: true
-
 - name: assert | Test if kernel_parameters is set correctly
   ansible.builtin.assert:
+    quiet: true
     that:
       - kernel_parameters is iterable
-    quiet: true
   when:
     - kernel_parameters is defined
-
 - name: assert | Test if item in kernel_parameters is set correctly
   ansible.builtin.assert:
+    quiet: true
     that:
       - item.name is defined
       - item.name is string
       - item.value is defined
       - item.value is string
       - item.value in [ "y", "n", "m" ]
-    quiet: true
   loop: "{{ kernel_parameters }}"
   loop_control:
     label: "{{ item.name }}"
