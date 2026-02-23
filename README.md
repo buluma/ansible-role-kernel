@@ -11,31 +11,33 @@ Build and install a kernel
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-kernel/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
-- become: true
-  gather_facts: true
-  hosts: all
-  name: Converge
-  pre_tasks:
-  - ansible.builtin.apt:
-      cache_valid_time: 600
-      update_cache: true
-    name: Update apt cache.
-    when: ansible_os_family == 'Debian'
-  roles:
-  - role: buluma.kernel
+---
+  - become: true
+    gather_facts: true
+    hosts: all
+    name: Converge
+    pre_tasks:
+      - ansible.builtin.apt:
+          cache_valid_time: 600
+          update_cache: true
+        name: Update apt cache.
+        when: ansible_os_family == 'Debian'
+    roles:
+      - role: buluma.kernel
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-kernel/blob/master/molecule/default/prepare.yml):
 
 ```yaml
-- become: true
-  gather_facts: false
-  hosts: all
-  name: Prepare
-  roles:
-  - role: buluma.bootstrap
-  - role: buluma.core_dependencies
-  - role: buluma.buildtools
+---
+  - become: true
+    gather_facts: false
+    hosts: all
+    name: Prepare
+    roles:
+      - role: buluma.bootstrap
+      - role: buluma.core_dependencies
+      - role: buluma.buildtools
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -45,10 +47,11 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-kernel/blob/master/defaults/main.yml):
 
 ```yaml
+---
 kernel_build_location: /tmp
 kernel_parameters:
-- name: CONFIG_SMP
-  value: true
+  - name: CONFIG_SMP
+    value: true
 kernel_version: 5.15.5
 ```
 
