@@ -50,8 +50,8 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 ---
 kernel_build_location: /tmp
 kernel_parameters:
-- name: CONFIG_SMP
-  value: true
+  - name: CONFIG_SMP
+    value: true
 kernel_version: 5.15.5
 ```
 
@@ -101,3 +101,4 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
