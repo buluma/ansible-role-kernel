@@ -1,8 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-kernel/tree/HEAD)
+## [26.6.0](https://github.com/buluma/ansible-role-kernel/tree/26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-kernel/compare/24.3.31...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-kernel/compare/26.3.8...26.6.0)
+
+## [26.3.8](https://github.com/buluma/ansible-role-kernel/tree/26.3.8) (2026-03-08)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kernel/compare/24.3.31...26.3.8)
 
 **Closed issues:**
 
@@ -11,6 +15,7 @@
 
 **Merged pull requests:**
 
+- Bump actions/checkout from 4 to 6 [\#32](https://github.com/buluma/ansible-role-kernel/pull/32) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.2 to 25.1.0 [\#30](https://github.com/buluma/ansible-role-kernel/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.1 to 24.12.2 [\#29](https://github.com/buluma/ansible-role-kernel/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.0 to 24.12.1 [\#28](https://github.com/buluma/ansible-role-kernel/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
