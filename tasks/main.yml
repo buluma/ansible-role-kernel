@@ -38,7 +38,7 @@
 
 - name: Make
   ansible.builtin.command:
-    cmd: make -j {{ ansible_facts.processor_vcpus * 2 }}
+    cmd: make -j {{ ansible_facts['processor_vcpus'] * 2 }}
     chdir: "{{ kernel_build_location }}/linux-{{ kernel_version }}"
     creates: "{{ kernel_build_location }}/linux-{{ kernel_version }}/vmlinux"
   async: 1800
