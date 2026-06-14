@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-kernel/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-kernel/compare/26.6.0...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#11](https://github.com/buluma/ansible-role-kernel/issues/11)
+
 ## [26.6.0](https://github.com/buluma/ansible-role-kernel/tree/26.6.0) (2026-06-14)
 
 [Full Changelog](https://github.com/buluma/ansible-role-kernel/compare/26.3.8...26.6.0)
