@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test kernel_version
   ansible.builtin.assert:
     that:
