@@ -72,3 +72,14 @@
     cmd: make install
     chdir: "{{ kernel_build_location }}/linux-{{ kernel_version }}"
     creates: "{{ kernel_installation_location }}"
+
+- name: DEBUG list /boot contents
+  ansible.builtin.command: ls -la /boot
+  changed_when: false
+  register: _kernel_debug_boot_listing
+
+- name: DEBUG print /boot contents and expected creates path
+  ansible.builtin.debug:
+    msg:
+      - "kernel_installation_location={{ kernel_installation_location }}"
+      - "{{ _kernel_debug_boot_listing.stdout_lines }}"
