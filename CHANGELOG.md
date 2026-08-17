@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-kernel/compare/26.6.2...HEAD)
 
+**Closed issues:**
+
+- Kernel Upgrade [\#39](https://github.com/buluma/ansible-role-kernel/issues/39)
+
 **Merged pull requests:**
 
 - Bump release-drafter/release-drafter from 7 to 7.6.0 [\#38](https://github.com/buluma/ansible-role-kernel/pull/38) ([dependabot[bot]](https://github.com/apps/dependabot))
